@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Design tokens. Change the colours here to rebrand the whole site.
+   --------------------------------------------------------------- */
+@theme {
+  --color-plaster: #F6F7F2;   /* page background */
+  --color-paper: #FFFFFF;     /* raised surfaces */
+  --color-pine: #0F2B26;      /* text, dark sections */
+  --color-pine-2: #1C443B;    /* hover on dark */
+  --color-slate: #586A64;     /* secondary text */
+  --color-line: #DFE5DD;      /* borders */
+  --color-ochre: #FFC72C;     /* accent: buttons, highlights (sunny yellow) */
+  --color-ochre-2: #FFB300;   /* accent hover */
+  --color-mint: #DDF3E8;      /* section tint */
+  --color-sky: #DFEDFB;       /* section tint */
+  --color-blush: #FDE7DA;     /* section tint */
+  --color-ok: #23875A;
+  --color-warn: #9A5B00;
+  --color-err: #C62828;
+
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-chip: 999px;
+  --radius-box: 18px;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    background: var(--color-plaster);
+    color: var(--color-pine);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-feature-settings: "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-stretch: 112%; line-height: 1.05; letter-spacing: -0.015em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ochre); outline-offset: 2px; border-radius: 2px; }
+  ::selection { background: var(--color-ochre); color: var(--color-pine); }
+}
+
+@layer components {
+  .wrap { width: 100%; max-width: 76rem; margin-inline: auto; padding-inline: 1rem; }
+  @media (min-width: 640px) { .wrap { padding-inline: 1.5rem; } }
+
+  .display { font-weight: 800; font-stretch: 125%; font-size: clamp(2.4rem, 6.4vw, 5.2rem); line-height: 0.98; letter-spacing: -0.025em; }
+  .h2 { font-weight: 750; font-size: clamp(1.8rem, 3.6vw, 2.75rem); }
+  .h3 { font-weight: 700; font-size: 1.25rem; font-stretch: 105%; }
+  .lead { font-size: 1.1875rem; color: var(--color-slate); max-width: 38rem; }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+    min-height: 3rem; padding: .75rem 1.35rem; border-radius: var(--radius-chip);
+    font-weight: 700; font-stretch: 105%; text-decoration: none; transition: background-color .2s, color .2s, border-color .2s, transform .2s, box-shadow .2s;
+  }
+  .btn-primary { background: var(--color-ochre); color: var(--color-pine); }
+  .btn-primary:hover { background: var(--color-ochre-2); transform: translateY(-2px); box-shadow: 0 10px 24px -10px color-mix(in oklab, var(--color-ochre-2) 80%, transparent); }
+  .btn:active { transform: translateY(0); }
+  .btn-ghost { border: 1.5px solid currentColor; }
+  .btn-ghost:hover { background: var(--color-pine); color: var(--color-plaster); border-color: var(--color-pine); transform: translateY(-2px); }
+  .on-dark .btn-ghost:hover { background: var(--color-plaster); color: var(--color-pine); border-color: var(--color-plaster); }
+
+  .link { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  .link:hover { text-decoration-color: var(--color-ochre); }
+
+  .field { display: block; width: 100%; min-height: 3rem; padding: .7rem 1rem; border: 1.5px solid var(--color-line); border-radius: 12px; background: var(--color-paper); color: var(--color-pine); font: inherit; }
+  .field:hover { border-color: var(--color-slate); }
+  .field:focus { border-color: var(--color-pine); outline: none; box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-ochre) 55%, transparent); }
+  .field[aria-invalid="true"] { border-color: var(--color-err); }
+  .label { display: block; font-weight: 650; margin-bottom: .35rem; }
+
+  .section { padding-block: 4.5rem; }
+  @media (min-width: 768px) { .section { padding-block: 6.5rem; } }
+}
+
+/* Soft colour blobs behind the hero. (The full version animates them, plus scroll reveals and a town marquee.) */
+.blob { position: absolute; border-radius: 9999px; filter: blur(60px); opacity: .75; pointer-events: none; }

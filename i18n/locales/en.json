@@ -1,0 +1,107 @@
+{
+  "skip": "Skip to content",
+  "brandSub": "Painting and renovation",
+  "nav": { "services": "Services", "projects": "Projects", "process": "How we work", "about": "About us", "contact": "Contact" },
+  "cta": { "quote": "Request a quote", "call": "Call us", "allServices": "All services", "details": "Details" },
+  "lang": "Language",
+  "hero": {
+    "kicker": "Family business in Ostermundigen since {year}",
+    "title": "Walls, facades and floors, done properly.",
+    "lead": "Interior painting, facades and small renovations in Bern and the Mittelland. You get a fixed quote within {days} working days, and we leave your home cleaner than we found it.",
+    "rating": "from {count} {source} reviews",
+    "quoteDays": "working days to your quote",
+    "warranty": "years warranty on our work"
+  },
+  "check": {
+    "title": "Do we work at your address?",
+    "button": "Check",
+    "hint": "Enter your Swiss postcode.",
+    "invalid": "Please enter a 4-digit Swiss postcode.",
+    "free": "Yes, {town} is in our area. No travel fee.",
+    "fee": "Yes, we come to {town}. Flat travel fee of {fee} per job.",
+    "outside": "{code} is outside our usual area. Send us a request anyway and we will tell you what is possible."
+  },
+  "services": {
+    "title": "What we do",
+    "lead": "Prices are starting points for a typical job. Your quote is fixed once we have seen the space.",
+    "colService": "Service",
+    "colIncluded": "Included",
+    "colTime": "Typical time",
+    "colPrice": "From",
+    "pageTitle": "Services",
+    "pageLead": "Five things we do every week, and do well. Every job starts with a visit and a fixed quote.",
+    "included": "What is included",
+    "from": "from {price}",
+    "other": "Other services"
+  },
+  "projects": { "title": "Recent projects", "lead": "A few jobs from the last months, with what we did and how long it took.", "days": "{n} day | {n} days" },
+  "process": {
+    "title": "How a job runs",
+    "steps": [
+      { "title": "You send a request", "text": "By form, phone or email. We reply within one working day to arrange a visit." },
+      { "title": "We visit and measure", "text": "We look at the space, check the surfaces and talk through colours and dates. The visit is free." },
+      { "title": "You get a fixed quote", "text": "Within {days} working days, with everything included. The price does not change." },
+      { "title": "We do the work and hand over", "text": "On the agreed dates, cleaned up at the end of each day. We walk through the result with you." }
+    ]
+  },
+  "reviews": { "title": "What clients say" },
+  "area": {
+    "title": "Where we work",
+    "lead": "Within {free} km of our workshop there is no travel fee. Further out, up to {max} km, we charge a flat {fee} per job.",
+    "freeZone": "No travel fee",
+    "feeZone": "Flat travel fee"
+  },
+  "faq": { "title": "Questions we hear often" },
+  "quote": {
+    "title": "Get your fixed quote",
+    "lead": "Tell us what needs doing. We reply within one working day to arrange a visit."
+  },
+  "contact": { "phone": "Phone", "email": "Email", "hours": "Hours", "hoursValue": "Mon–Fri, 7:00–17:30", "address": "Workshop" },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "optional": "optional",
+    "postcode": "Postcode of the job",
+    "service": "Service",
+    "serviceOther": "Something else",
+    "message": "What needs doing?",
+    "messagePh": "For example: three rooms, about 60 m², walls and ceilings, we move in on 1 March.",
+    "submit": "Send request",
+    "sending": "Sending…",
+    "sent": "Request sent. We will reply within one working day.",
+    "failed": "The request could not be sent. Please call us or try again in a moment.",
+    "errName": "Enter your name.",
+    "errEmail": "Enter an email address like name{'@'}example.ch.",
+    "errPostcode": "Enter a 4-digit postcode.",
+    "errMessage": "Tell us briefly what needs doing.",
+    "fixErrors": "Check the highlighted fields."
+  },
+  "about": {
+    "title": "About us",
+    "lead": "A family business with eight painters, two apprentices and one simple rule: leave every home cleaner than we found it.",
+    "storyTitle": "Since {year}",
+    "story": [
+      "Lindenhof started as a one-man workshop in Ostermundigen. Today the second generation runs the business, still from the same yard.",
+      "We train apprentices every year, work with Swiss paint manufacturers and keep our teams small, so you always know who is in your home."
+    ],
+    "valuesTitle": "What you can count on",
+    "values": [
+      { "title": "A fixed price", "text": "The quote is the price. Extra work is quoted before we do it." },
+      { "title": "A clean site", "text": "We cover, tidy up every evening and clean at the end." },
+      { "title": "One contact person", "text": "From the first visit to the handover, you deal with the same person." }
+    ]
+  },
+  "footer": { "imprint": "Imprint", "privacy": "Privacy", "rights": "All rights reserved." },
+  "legal": {
+    "imprintTitle": "Imprint",
+    "privacyTitle": "Privacy policy",
+    "placeholder": "Replace this text with your own legal notice. Templates for Swiss companies are available from your industry association or a lawyer."
+  },
+  "notFound": { "title": "Page not found", "text": "This page does not exist or has moved.", "home": "Back to the home page" },
+  "meta": {
+    "homeTitle": "Painting and renovation in Bern",
+    "homeDescription": "Interior painting, facades and small renovations in Bern and the Mittelland. Fixed quote within two working days.",
+    "servicesDescription": "Interior painting, facades, plaster, wood and small renovations in the Bern region."
+  }
+}

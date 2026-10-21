@@ -1,0 +1,19 @@
+{
+  "name": "handwerk-lite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Handwerk Lite – free Nuxt 4 + Tailwind template for local trade businesses",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.6.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "nuxt": "^4.6.2",
+    "tailwindcss": "^4.3.3"
+  }
+}
