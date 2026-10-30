@@ -2,7 +2,7 @@
 
 A clean, fast website for painters, electricians, plumbers and other local service businesses. Built with **Nuxt 4** and **Tailwind CSS v4**, generated as a static site.
 
-**Live demo of the full version:** https://handwerk-nuxt-demo.netlify.app
+**Live demo of the full version:** https://handwerk-nuxt-demo.pages.dev
 
 ![Handwerk](./docs/cover.png)
 
@@ -22,7 +22,7 @@ A clean, fast website for painters, electricians, plumbers and other local servi
 | Home, service pages, quote form | ✅ | ✅ |
 | Postcode checker | ✅ | ✅ |
 | Languages | English | **English, German, French** with hreflang |
-| Pages | Home, services, contact | + About, services overview, imprint, privacy, 404 |
+| Pages | Home, services, contact, 404 | + About, services overview, imprint, privacy |
 | Animations | – | Headline reveal, scroll reveals, count-up stats, town marquee |
 | Sitemap with language alternates | – | ✅ |
 | Support | GitHub issues | Email support, free v1.x updates |
