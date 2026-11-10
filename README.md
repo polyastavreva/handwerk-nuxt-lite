@@ -2,6 +2,8 @@
 
 A clean, fast website for painters, electricians, plumbers and other local service businesses. Built with **Nuxt 4** and **Tailwind CSS v4**, generated as a static site.
 
+**Live demo of Lite:** https://handwerk-lite-demo.pages.dev
+
 **Live demo of the full version:** https://handwerk-nuxt-demo.pages.dev
 
 ![Handwerk](./docs/cover.png)
